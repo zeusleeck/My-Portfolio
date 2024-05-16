@@ -10,9 +10,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Chong Kai Lee",
+  title: "Lee Chong Kai",
   description:
-    "Chong Kai Resume",
+    "Lee Chong Kai Resume",
 };
 
 export default function RootLayout({

@@ -10,8 +10,6 @@ function Hero() {
           <Typography variant="h1" 
           color="white"
           placeholder={undefined} 
-          onPointerEnterCapture={undefined} 
-          onPointerLeaveCapture={undefined}
           >
             Lee Chong Kai
           </Typography>
@@ -20,8 +18,7 @@ function Hero() {
             className="mt-4 mb-12 introduction"
             color="white" 
             placeholder={undefined} 
-            onPointerEnterCapture={undefined} 
-            onPointerLeaveCapture={undefined}>
+            >
             Software Engineer / Systems Analyst
           </Typography>
         </div>
