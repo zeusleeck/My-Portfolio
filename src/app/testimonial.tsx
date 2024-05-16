@@ -14,8 +14,12 @@ const FEEDBACK = [
   },
   {
     title: "Web Developer",
-    children: "Since joining my team as a software engineer, Chong Kai has consistently demonstrated a passion for technology and willingness to expand his technical skills." 
-    + "What sets him apart is his initiative. He never hesitate to consult senior developers when faced with challenges, showing a keenness to learn and grow.",
+    children: "Chong Kai developed using a variety of technologies including "
+      + "MySQL, PHP, HTML, CSS and JavaScript. He has a creative eye for web design and his designs were modern and innovative. "
+      + "He also used Python to automate our backend processes to improve"
+      + "our workflow, for example, enabling us to monitor our trading profits and losses in real-time."
+      + "He is motivated and constantly seeks to learn more about the latest technologies. He is also organized, detail-oriented," 
+      + "effective, and committed to getting the job done.",
     name: "Roy Chong - Quantitative Analyst",
     position: "Pilgrim Partners Asia."
   }
@@ -70,7 +74,7 @@ export function Testimonial() {
               <div className="flex items-center gap-4">
                 <Avatar
                   variant="rounded"
-                  src="/image/avatar1.jpg"
+                  src="/My-Portfolio/image/avatar1.jpg"
                   alt="spotify"
                   size="sm"
                   className={`cursor-pointer ${active === 1 ? "opacity-100" : "opacity-50"}`}
@@ -78,7 +82,7 @@ export function Testimonial() {
                 <div className="w-[1px] h-[36px] bg-blue-gray-100 "></div>
                 <Avatar
                   variant="rounded"
-                  src="/image/avatar2.jpg"
+                  src="/My-Portfolio/image/avatar2.jpg"
                   alt="spotify"
                   size="sm"
                   className={`cursor-pointer ${active === 2 ? "opacity-100" : "opacity-50"}`}
@@ -90,7 +94,7 @@ export function Testimonial() {
               <Image
                 width={768}
                 height={768}
-                src={`/image/avatar${active}.jpg`}
+                src={`/My-Portfolio/image/avatar${active}.jpg`}
                 alt="testimonial image"
                 className="h-full rounded-lg w-full object-cover"
               />
