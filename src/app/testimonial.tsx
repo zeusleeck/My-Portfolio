@@ -74,7 +74,7 @@ export function Testimonial() {
               <div className="flex items-center gap-4">
                 <Avatar
                   variant="rounded"
-                  src="/My-Portfolio/image/avatar1.jpg"
+                  src="/image/avatar1.jpg"
                   alt="spotify"
                   size="sm"
                   className={`cursor-pointer ${active === 1 ? "opacity-100" : "opacity-50"}`}
@@ -82,7 +82,7 @@ export function Testimonial() {
                 <div className="w-[1px] h-[36px] bg-blue-gray-100 "></div>
                 <Avatar
                   variant="rounded"
-                  src="/My-Portfolio/image/avatar2.jpg"
+                  src="/image/avatar2.jpg"
                   alt="spotify"
                   size="sm"
                   className={`cursor-pointer ${active === 2 ? "opacity-100" : "opacity-50"}`}
@@ -94,7 +94,7 @@ export function Testimonial() {
               <Image
                 width={768}
                 height={768}
-                src={`/My-Portfolio/image/avatar${active}.jpg`}
+                src={`/image/avatar${active}.jpg`}
                 alt="testimonial image"
                 className="h-full rounded-lg w-full object-cover"
               />
